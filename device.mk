@@ -344,9 +344,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Update
 AB_OTA_UPDATER := false
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb-service.mediatek-legacy
 
 # Vibrator
 PRODUCT_PACKAGES += \
