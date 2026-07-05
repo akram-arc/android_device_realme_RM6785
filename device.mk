@@ -336,6 +336,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.RM6785
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)/aidl/touch
+
+
 # Update
 AB_OTA_UPDATER := false
 
