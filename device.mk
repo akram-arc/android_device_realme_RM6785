@@ -342,8 +342,6 @@ PRODUCT_SOONG_NAMESPACES += \
 AB_OTA_UPDATER := false
 
 
-$(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
-
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
