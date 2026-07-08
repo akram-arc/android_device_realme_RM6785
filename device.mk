@@ -168,9 +168,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 PRODUCT_OTHER_JAVA_DEBUG_INFO := false
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -334,7 +331,6 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    TouchGestures \
     vendor.lineage.touch-service.RM6785
 
 # Soong namespaces
