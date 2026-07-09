@@ -15,6 +15,10 @@ $(call inherit-product, device/realme/RM6785/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+WITH_GMS := true
+TARGET_GAPPS_VARIANT := core
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RM6785
 PRODUCT_DEVICE := RM6785
