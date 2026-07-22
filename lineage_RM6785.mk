@@ -16,7 +16,7 @@ $(call inherit-product, device/realme/RM6785/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 WITH_GMS := true
-TARGET_GAPPS_VARIANT := core
+TARGET_GAPPS_VARIANT := pico
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 # Device identifier. This must come after all inclusions.
