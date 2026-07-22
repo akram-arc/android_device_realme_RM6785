@@ -195,7 +195,6 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayRM6785 \
     LauncherOverlayRM6785 \
     LineageSDKOverlayRM6785 \
-    LineageSettingsProviderOverlayRM6785 \
     SettingsOverlayRM6785 \
     SettingsProviderOverlay6 \
     SettingsProviderOverlay6i \
