@@ -22,7 +22,7 @@ vendor.streamin.pcm.dump=0
 ro.bluetooth.powerstats.disable=true
 
 # Bluetooth (A2DP)
-persist.bluetooth.a2dp_offload.disabled=false
+persist.bluetooth.a2dp_offload.disabled=true
 
 # Camera
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
